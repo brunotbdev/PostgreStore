@@ -1,0 +1,201 @@
+.product-page {
+  background-color: var(--clr-primary);
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  padding: 0 2rem 3rem;
+}
+
+.product-page-container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.back {
+  color: var(--clr-icon);
+  background-color: var(--clr-primary);
+  padding: 0.8rem 1.5rem;
+  border-radius: 1.5rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  align-self: start;
+
+  @media screen and (max-width: 700px) {
+    align-self: center;
+  }
+}
+
+.back:hover,
+.back:focus-visible {
+  cursor: pointer;
+  background: var(--clr-primary-hover);
+}
+
+.product-details {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+
+  @media screen and (max-width: 700px) {
+    flex-direction: column;
+  }
+}
+
+.product-details > img {
+  width: 100%;
+  max-width: 450px;
+  aspect-ratio: 1 / 1;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 1.5rem;
+  box-shadow: 0 0 10px 1px var(--clr-secondary);
+}
+
+.form-update {
+  background-color: var(--clr-card);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  width: 100%;
+  max-width: 450px;
+  box-shadow: 0 0 10px 1px var(--clr-secondary);
+}
+
+.form-update > label {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--clr-icon);
+}
+
+.form-update .input-container {
+  background-color: var(--clr-card);
+  padding: 1rem 1rem;
+  border-radius: 2rem;
+  border: 1px solid var(--clr-input);
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.form-update input {
+  background-color: var(--clr-card);
+  border: transparent;
+  width: 100%;
+  font-weight: 400;
+  color: var(--clr-icon);
+}
+
+.form-update > h2 {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--clr-icon);
+  margin-bottom: 1.5rem;
+}
+
+.input-icon {
+  color: var(--clr-input);
+}
+
+.form-update input[type="number"] {
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.form-update input:focus-visible {
+  outline: transparent;
+}
+
+.form-update .input-container:has(input:focus-visible) {
+  outline: var(--clr-accent) 2px dashed;
+  outline-offset: 2px;
+}
+
+.form-update .input-container:has(input:not(:placeholder-shown):invalid) {
+  outline: var(--clr-red) 2px dashed;
+  outline-offset: 2px;
+}
+
+.form-update-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.form-save {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--clr-accent);
+  gap: 0.8rem;
+  color: var(--clr-primary);
+  padding: 0.8rem 1.5rem;
+  border-radius: 1.5rem;
+  font-size: 0.925rem;
+  font-weight: 600;
+  width: 50%;
+}
+
+.form-save:hover,
+.form-save:focus-visible {
+  cursor: pointer;
+  background: var(--clr-accent-hover);
+}
+
+.form-save:active {
+  background: var(--clr-accent-active);
+}
+
+.form-delete {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--clr-red);
+  gap: 0.8rem;
+  color: var(--clr-primary);
+  padding: 0.8rem 1.5rem;
+  border-radius: 1.5rem;
+  font-size: 0.925rem;
+  font-weight: 600;
+  width: 50%;
+}
+
+.form-delete:hover,
+.form-delete:focus-visible {
+  cursor: pointer;
+  background: var(--clr-red-hover);
+}
+
+.form-delete:active {
+  background: var(--clr-red-active);
+}
+
+@media screen and (max-width: 970px) {
+  .delete-icon,
+  .save-icon {
+    display: none;
+  }
+}
+
+.form-save:disabled {
+  display: flex;
+  align-items: center;
+  background-color: var(--clr-disabled);
+  gap: 0.8rem;
+  color: var(--clr-disabled-text);
+  padding: 0.8rem 1.5rem;
+  border-radius: 1.5rem;
+  font-size: 0.925rem;
+  font-weight: 600;
+}

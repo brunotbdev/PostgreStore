@@ -1,0 +1,60 @@
+{
+  "toast": {
+    "error": "Algo deu errado",
+    "linkNotImage": "O link não é uma imagem válida",
+    "productAdded": "Novo produto adicionado",
+    "productUpdated": "Produto atualizado",
+    "productDeleted": "Produto deletado",
+    "productRefreshed": "Produtos atualizados"
+  },
+  "navbar": {
+    "aria1": "Ir para a página inicial",
+    "aria2": "Selecionar idioma",
+    "aria3": "Mudar para o tema claro",
+    "aria4": "Mudar para o tema escuro",
+    "aria5": "Ir para o carrinho",
+    "ariaLang1": "Mudar para português",
+    "ariaLang2": "Mudar para inglês",
+    "ariaLang3": "Mudar para espanhol"
+  },
+  "homepage": {
+    "aria1": "Adicionar um novo produto",
+    "button1": "Adicionar Produto",
+    "aria2": "Atualizar lista de produtos",
+    "notFoundTitle": "Nenhum produto encontrado",
+    "notFoundDesc": "Comece adicionando seu primeiro produto ao inventário"
+  },
+  "productpage": {
+    "aria1": "Voltar para a lista de produtos",
+    "button1": "Voltar para Produtos",
+    "formTitle": "Editar Produto",
+    "label1": "Nome do Produto",
+    "placeholder1": "Digite o nome do produto",
+    "label2": "Preço",
+    "placeholder2": "0,00",
+    "label3": "URL da Imagem",
+    "placeholder3": "https://exemplo.com/imagem.png",
+    "aria2": "Deletar este produto",
+    "button2": "Deletar Produto",
+    "aria3": "Salvar alterações no produto",
+    "button3": "Salvar Alterações"
+  },
+  "product": {
+    "aria1": "Editar este produto",
+    "aria2": "Deletar este produto"
+  },
+  "addproduct": {
+    "aria1": "Fechar aba",
+    "formTitle": "Adicionar Novo Produto",
+    "label1": "Nome do Produto",
+    "placeholder1": "Digite o nome do produto",
+    "label2": "Preço",
+    "placeholder2": "0,00",
+    "label3": "URL da Imagem",
+    "placeholder3": "https://exemplo.com/imagem.png",
+    "aria2": "Cancelar adição de produto",
+    "button2": "Cancelar",
+    "aria3": "Enviar novo produto",
+    "button3": "Adicionar Produto"
+  }
+}

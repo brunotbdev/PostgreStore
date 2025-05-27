@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("./reset.css");
+@import url("./navbar.css");
+@import url("./homePage.css");
+@import url("./addProduct.css");
+@import url("./productPage.css");
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+* {
+  transition: all 0.2s ease;
+}
+
+html {
+  color-scheme: light dark;
+  scrollbar-width: thin;
+}
+
+:root:has(.light) {
+  --clr-accent: #1dc24e;
+  --clr-accent-hover: hsl(from var(--clr-accent) h s calc(l + 5));
+  --clr-accent-active: hsl(from var(--clr-accent) h s calc(l + 10));
+  --clr-red: #dd4c4c;
+  --clr-red-hover: hsl(from var(--clr-red) h s calc(l + 5));
+  --clr-red-active: hsl(from var(--clr-red) h s calc(l + 10));
+  --clr-primary: #f3f3f3;
+  --clr-primary-hover: hsl(from var(--clr-primary) h s calc(l - 5));
+  --clr-secondary: #cacaca;
+  --clr-icon: #454545;
+  --clr-card: #ebebeb;
+  --clr-card-hover: #d6d6d6;
+  --clr-text-dark: #2e2e2e;
+  --clr-input: #9b9b9b;
+  --clr-disabled: #339651;
+  --clr-disabled-text: #454545;
+}
+
+:root:has(.dark) {
+  --clr-accent: #1dc24e;
+  --clr-accent-hover: hsl(from var(--clr-accent) h s calc(l + 5));
+  --clr-accent-active: hsl(from var(--clr-accent) h s calc(l + 10));
+  --clr-red: #dd4c4c;
+  --clr-red-hover: hsl(from var(--clr-red) h s calc(l + 5));
+  --clr-red-active: hsl(from var(--clr-red) h s calc(l + 10));
+  --clr-primary: #1f1f1f;
+  --clr-primary-hover: hsl(from var(--clr-primary) h s calc(l + 5));
+  --clr-secondary: #181818;
+  --clr-icon: #e0e0e0;
+  --clr-card: #252525;
+  --clr-card-hover: hsl(from var(--clr-card) h s calc(l + 5));
+  --clr-text-dark: #797979;
+  --clr-input: #444444;
+  --clr-disabled: #06521d;
+  --clr-disabled-text: #666666;
+}
+
+:focus-visible {
+  outline: var(--clr-accent) 2px dashed;
+  outline-offset: 2px;
+}
+
+.container {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+::-moz-selection {
+  background-color: var(--clr-accent);
+}
+
+::selection {
+  background-color: var(--clr-accent);
+}
+
+.toast.toast {
+  background-color: var(--clr-accent);
+  color: var(--clr-primary);
+}
+
+.button {
+  color: var(--clr-icon);
+  background: var(--clr-primary);
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+
+.button:hover,
+.button:focus-visible {
+  cursor: pointer;
+  background: var(--clr-primary-hover);
+}
+
+/* loading */
+
+.form-submit.loading,
+.form-save.loading {
+  background-color: var(--clr-disabled);
+  color: var(--clr-disabled-text);
+}
+
+.loading::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: transparent 3px solid;
+  border-top: #efefef 3px solid;
+  inset: 50%;
+  translate: -50% -50%;
+  -webkit-animation: loading 0.8s linear infinite;
+  animation: loading 0.8s linear infinite;
+}
+
+@-webkit-keyframes loading {
+  to {
+    rotate: 360deg;
+  }
+}
+
+@keyframes loading {
+  to {
+    rotate: 360deg;
+  }
+}

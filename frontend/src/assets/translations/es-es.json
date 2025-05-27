@@ -1,0 +1,60 @@
+{
+  "toast": {
+    "error": "Algo salió mal",
+    "linkNotImage": "El enlace no es una imagen válida",
+    "productAdded": "Nuevo producto agregado",
+    "productUpdated": "Producto actualizado",
+    "productDeleted": "Producto eliminado",
+    "productRefreshed": "Productos actualizados"
+  },
+  "navbar": {
+    "aria1": "Ir a la página principal",
+    "aria2": "Seleccionar idioma",
+    "aria3": "Cambiar al tema claro",
+    "aria4": "Cambiar al tema oscuro",
+    "aria5": "Ir al carrito",
+    "ariaLang1": "Cambiar a portugués",
+    "ariaLang2": "Cambiar a inglés",
+    "ariaLang3": "Cambiar a español"
+  },
+  "homepage": {
+    "aria1": "Agregar un nuevo producto",
+    "button1": "Agregar Producto",
+    "aria2": "Actualizar lista de productos",
+    "notFoundTitle": "No se encontraron productos",
+    "notFoundDesc": "Comienza agregando tu primer producto al inventario"
+  },
+  "productpage": {
+    "aria1": "Volver a la lista de productos",
+    "button1": "Volver a Productos",
+    "formTitle": "Editar Producto",
+    "label1": "Nombre del Producto",
+    "placeholder1": "Ingresa el nombre del producto",
+    "label2": "Precio (BRL)",
+    "placeholder2": "0,00",
+    "label3": "URL de la Imagen",
+    "placeholder3": "https://ejemplo.com/imagen.png",
+    "aria2": "Eliminar este producto",
+    "button2": "Eliminar Producto",
+    "aria3": "Guardar cambios en el producto",
+    "button3": "Guardar Cambios"
+  },
+  "product": {
+    "aria1": "Editar este producto",
+    "aria2": "Eliminar este producto"
+  },
+  "addproduct": {
+    "aria1": "Cerrar pestaña",
+    "formTitle": "Agregar Nuevo Producto",
+    "label1": "Nombre del Producto",
+    "placeholder1": "Ingresa el nombre del producto",
+    "label2": "Precio (BRL)",
+    "placeholder2": "0,00",
+    "label3": "URL de la Imagen",
+    "placeholder3": "https://ejemplo.com/imagen.png",
+    "aria2": "Cancelar adición de producto",
+    "button2": "Cancelar",
+    "aria3": "Enviar nuevo producto",
+    "button3": "Agregar Producto"
+  }
+}

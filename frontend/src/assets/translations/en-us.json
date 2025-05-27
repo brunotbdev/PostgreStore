@@ -1,0 +1,60 @@
+{
+  "toast": {
+    "error": "Something went wrong",
+    "linkNotImage": "The link is not a valid image",
+    "productAdded": "New product added",
+    "productUpdated": "Product updated",
+    "productDeleted": "Product deleted",
+    "productRefreshed": "Products Refreshed"
+  },
+  "navbar": {
+    "aria1": "Go to the home page",
+    "aria2": "Select language",
+    "aria3": "Switch to light theme",
+    "aria4": "Switch to dark theme",
+    "aria5": "Go to cart",
+    "ariaLang1": "Switch to Portuguese",
+    "ariaLang2": "Switch to English",
+    "ariaLang3": "Switch to Spanish"
+  },
+  "homepage": {
+    "aria1": "Add a new product",
+    "button1": "Add Product",
+    "aria2": "Refresh product list",
+    "notFoundTitle": "No products found",
+    "notFoundDesc": "Get started by adding your first product to the inventory"
+  },
+  "productpage": {
+    "aria1": "Return to product list",
+    "button1": "Back to Products",
+    "formTitle": "Edit Product",
+    "label1": "Product Name",
+    "placeholder1": "Enter product name",
+    "label2": "Price (BRL)",
+    "placeholder2": "0,00",
+    "label3": "Image URL",
+    "placeholder3": "https://example.com/image.png",
+    "aria2": "Delete this product",
+    "button2": "Delete Product",
+    "aria3": "Save changes to product",
+    "button3": "Save Changes"
+  },
+  "product": {
+    "aria1": "Edit this product",
+    "aria2": "Delete this product"
+  },
+  "addproduct": {
+    "aria1": "Close tab",
+    "formTitle": "Add New Product",
+    "label1": "Product Name",
+    "placeholder1": "Enter product name",
+    "label2": "Price (BRL)",
+    "placeholder2": "0,00",
+    "label3": "Image URL",
+    "placeholder3": "https://example.com/image.png",
+    "aria2": "Cancel adding product",
+    "button2": "Cancel",
+    "aria3": "Add new product",
+    "button3": "Add Product"
+  }
+}
