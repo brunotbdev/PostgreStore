@@ -2,45 +2,45 @@
 
 # 🛒 PostgreStore
 
-Aplicação de uma loja com operações CRUD.
+Store application with CRUD operations.
 
 ![Screenshot](./screenshot.jpg)
 
 ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 
-<a href="https://github.com/brunotbdev/PostgreStore/blob/main/README_en.md">🇺🇸 English Readme</a>
+<a href="https://github.com/brunotbdev/PostgreStore/blob/main/README.md">🇧🇷 Readme em Português</a>
 
 </div>
 
-## 🚀 Instalação
+## 🚀 Installation
 
-### Pré-requisitos
+### Prerequisites
 
 - Docker
 
 ```sh
 git clone https://github.com/brunotbdev/PostgreStore.git
-cd postgrestore
+cd PostgreStore
 ```
 
-### Uso
+### Usage
 
-#### Iniciar o docker
+#### Start docker
 
 ```sh
 docker compose up --build -d
 ```
 
-O projeto estará disponivel em http://localhost:3000/
+The project will be available at http://localhost:3000/
 
-#### Adicionar alguns produtos para testes
+#### Add some products for tests
 
 ```sh
 docker exec backend node src/seeds/products.js
 ```
 
-### 🛠️ Funcionalidades
+### 🛠️ Features
 
-- Adicionar, editar e deletar produtos
-- Suporte a tema claro e escuro
-- Multiplos idiomas
+- Add, update and remove products
+- Support for light and dark themes
+- Multiple languages
